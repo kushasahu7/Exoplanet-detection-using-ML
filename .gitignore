@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files
+*.csv
+*.xls
+*.xlsx
+*.json
+*.db
+*.sqlite3
+
+# Large or raw data files (e.g., FITS files and datasets)
+*.fits
+*.h5
+*.dat
+
+# Logs and local files
+*.log
+*.out
+*.pid
+*.gz
+*.zip
+
+# Model artifacts and checkpoints
+*.ckpt
+*.h5
+*.hdf5
+*.pb
+*.joblib
+*.pkl
+
+# Configurations and environment files
+*.env
+*.DS_Store
+data/negative/
+data/positive/
+
+
+# tsfresh cache files
+tsfresh_cache/
+
+# IDE-specific settings
+.vscode/
+.idea/
+
+# Generated files from data visualization
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
